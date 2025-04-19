@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #111;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+}
+
+nav a {
+  margin-left: 20px;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.hero {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background: url('https://i.imgur.com/CN3EzrO.png') center/cover no-repeat;
+}
+
+.hero .content {
+  max-width: 600px;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.hero .tag {
+  background-color: red;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.carousel {
+  padding: 40px;
+}
+
+.carousel h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  background: #111;
+  border-radius: 10px;
+  min-width: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card p {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.card span {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #111;
+  color: #555;
+  font-size: 0.9rem;
+}
