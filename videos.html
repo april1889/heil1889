@@ -142,7 +142,7 @@
 </head>
 <body>
     <!-- Background Video (will be changed by JavaScript) -->
-    <video class="background-video" id="backgroundVideo" autoplay muted loop>
+    <video class="background-video" id="backgroundVideo" autoplay loop>
         <!-- Video source will be set by JavaScript -->
     </video>
     
@@ -150,31 +150,15 @@
         <div class="logo">Hitler</div>
         
         <div class="video-selector">
-            <h2>Select a Video:</h2>
+            
             
             <!-- Video Option 1 -->
-            <div class="video-option" onclick="changeVideo('src/paste1.mp4', 'TOOTHPASTE FORMULA PRESIDERSET')">
-                <img src="thumbnail1.jpg" class="video-thumbnail" alt="Video 1">
-                <div class="video-title">TOOTHPASTE FORMULA PRESIDERSET</div>
+            <div class="video-option" onclick="changeVideo('src/hbd1.mp4', 'Happy Birthday My Fuhrer')">
+                <img src="src/thmb.jpg" class="video-thumbnail" alt="Video 1">
+                <div class="video-title">Happy Birthday My Fuhrer</div>
             </div>
             
-            <!-- Video Option 2 -->
-            <div class="video-option" onclick="changeVideo('src/video2.mp4', 'NESQUIK TRUTH COROGUAR FLAVOR')">
-                <img src="thumbnail2.jpg" class="video-thumbnail" alt="Video 2">
-                <div class="video-title">NESQUIK TRUTH COROGUAR FLAVOR</div>
-            </div>
             
-            <!-- Video Option 3 -->
-            <div class="video-option" onclick="changeVideo('src/video3.mp4', 'NOISE CONTROLLERES RÉDUITE FIREST')">
-                <img src="thumbnail3.jpg" class="video-thumbnail" alt="Video 3">
-                <div class="video-title">NOISE CONTROLLERES RÉDUITE FIREST</div>
-            </div>
-            
-            <!-- Video Option 4 -->
-            <div class="video-option" onclick="changeVideo('video4.mp4', 'CHIEF OF CORON PHYSI')">
-                <img src="thumbnail4.jpg" class="video-thumbnail" alt="Video 4">
-                <div class="video-title">CHIEF OF CORON PHYSI</div>
-            </div>
         </div>
     </div>
     
@@ -253,7 +237,7 @@
         });
         
         // Start with first video by default
-        changeVideo('video1.mp4', 'TOOTHPASTE FORMULA PRESIDERSET');
+        changeVideo('hbd1.mp4', 'TOOTHPASTE FORMULA PRESIDERSET');
     </script>
 </body>
 </html>

@@ -47,7 +47,7 @@
 <body>
     <div id="content">
         <div id="dateText" class="date-text">20.03.1889-∞</div>
-        <div id="birthdayText" class="birthday-text">happy birthday my fuhrer</div>
+        <div id="birthdayText" class="birthday-text">Happy Birthday My Fuhrer</div>
     </div>
 
     <script>
@@ -62,13 +62,12 @@
                 birthdayText.classList.add('show-birthday');
                 
                 setTimeout(() => {
-                    window.location.href = 'videos.html'; // Redirect to your video page
+                    window.location.href = 'videos.html'; 
                 }, 3000);
             }
         });
         
-        // If you want the page to be accessible only via this gateway
-        // Save a flag in sessionStorage when they pass through
+ 
         dateText.addEventListener('click', () => {
             sessionStorage.setItem('accessGranted', 'true');
         });
